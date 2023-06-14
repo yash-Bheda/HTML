@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: black;
+        }
+        .x
+        {
+            height: 200px;
+            width: 200px;
+            background: white;
+            border-radius: 50%;
+            margin: 120px auto;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .y
+        {
+            height: 180px;
+            width: 180px;
+            background: rgba(265,265,265,.6);
+            border-radius: 50%;
+            position: absolute;
+            transition: 1s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .z
+        {
+            height: 100px;
+            width: 100px;
+            background: rgba(265,265,265,.6);
+            border-radius: 50%;
+            position: absolute;
+            transition: 1s;
+
+
+        }
+        .y:hover
+        {
+            transform: scale(1.5);
+        }
+        .z:hover
+        {
+            transform: scale(2.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="x"><div class="y"><div class="z"></div></div></div>
+    
+</body>
+</html>

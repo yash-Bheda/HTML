@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: black;
+        }
+        .x
+        {
+            height: 200px;
+            width: 200px;
+            background: red;
+            border-radius: 50%;
+            margin: 120px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .y
+        {
+            height: 160px;
+            width: 160px;
+            background:rgba(265,265,265,.30);
+            border-radius: 50%;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: yash 5s infinite linear;
+
+        }
+        .z
+        {
+            height: 120px;
+            width: 120px;
+            background:rgba(265,265,265,.30);;
+            border-radius: 50%;
+            animation: yash 5s infinite linear;
+        }
+        @keyframes yash
+        {
+            from{
+                transform: scale(1.3);
+            }
+            to{
+                transform: scale(1.5);
+            }
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="x"><div class="y"><div class="z"></div></div></div>
+    
+</body>
+</html>

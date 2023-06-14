@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .x {
+            height: 350px;
+            width: 250px;
+            background: pink;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 120px auto;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .x::after {
+            content: "";
+            height: 330px;
+            width: 230px;
+            background: black;
+            position: absolute;
+        }
+
+        .x::before {
+            content: "";
+            height: 800px;
+            width: 800px;
+            background: conic-gradient(red 0deg, red 90deg, blue 90deg, blue 180deg, green 180deg, green 270deg, purple 270deg, purple 360deg);
+            position: absolute;
+            transition: 1s;
+
+        }
+
+        .x:hover::before {
+            transform: rotate(360deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="x"> </div>
+
+
+</body>
+
+</html>
