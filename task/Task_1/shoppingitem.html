@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{box-sizing: border-box;}
+        .a
+        {
+            height: 370px;
+            width: 200px;
+            /* background: red; */
+            position: relative;
+            box-shadow: 0 0 15px rgb(240, 103, 103);
+        }
+        .b
+        {
+            height: 240px;
+            width: 200px;
+            background: white;
+            /* padding: 20px; */
+            transition: 1s;
+            position: relative;
+        }
+        .front{
+            height: 240px;
+            width: 200px;
+            background:white
+            position: absolute;
+            left: 0;
+            top: 0;
+            transform: rotateY(0deg);
+            backface-visibility: hidden;
+            transition: 1s;
+            padding: 10px;
+            z-index: -4;
+        }
+        .back{
+            height: 240px;
+            width: 200px;
+            background: rgba(230, 230, 209,0.60);
+            position: absolute;
+            left: 0;
+            top: 0;
+            transform: rotateY(180deg);
+            backface-visibility: hidden;
+            transition: 1s;
+            padding: 10px;
+            /* z-index: -5; */
+        }
+        .b:hover .front{
+            transform: rotateY(180deg);
+        }
+        .b:hover .back{
+            transform: rotateY(0deg);
+        }
+        .c
+        {
+            height: 50px;
+            width: 200px;
+            background:black;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: 1s;
+            opacity: 0;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        .b:hover .c{
+            top: 190px;
+            opacity: 1;
+            /* color: aqua; */
+        }
+        .c:hover
+        {
+            background: aqua;
+        }
+        .d
+        {
+            /* height: 60px; */
+            width: 200px;
+            background:white;
+        }
+        .d
+        {
+            text-align: center;
+            color: rgb(221, 161, 161);
+        }
+        button
+        {
+            background: rgb(0, 128, 75);
+            color: white;
+            height: 35px;
+            width: 180px;
+            outline: 4px solid rgb(0, 128, 75);
+            border: none;
+            transition: 1s;
+        }
+        button:hover{
+        outline-offset: 5px;
+        }
+        .b1{
+            background: red;
+            color: white;
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: 1;
+            
+        }
+       /* .b:hover 
+       {
+        transform: rotateY(180deg);
+       
+       }
+         */
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div class="b" >
+            <div class="b1">NEW</div>
+
+
+            <div class="front"><img src="20200904_203857.jpg" alt="" height="100%" width="100%"></div>
+            <div class="back"><img src="20200904_203857.jpg" alt="" height="100%" width="100%"></div>
+                   <div class="c">QUICK VIEW</div>
+
+        </div>
+        <div class="d">
+            <p>BULLET BIKE</p>
+            <P><span style="color: black;">$6500</span> <span style="color: rgb(192, 170, 170);"><del>$60</del></span></P>
+            <button>Add To Cart</button>
+
+        </div>
+    </div>
+    
+</body>
+</html>
