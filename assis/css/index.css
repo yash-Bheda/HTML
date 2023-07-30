@@ -1,0 +1,463 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.main
+{
+    height: 500px;
+    background:url(../img/2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.main .nav
+{
+    height: 500px;
+    width: 20%;
+    background:rgba(0, 0, 0, 0.308);
+}
+.nav .logo
+{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.logo .box1
+{
+    height: 80px;
+    width: 130px;
+    margin: 5px 0 0 50px;
+    border: 2px solid white;
+}
+.logo .box2
+{
+    height: 80px;
+    width: 130px;
+    position: absolute;
+    left: 60px;
+    top: 10px;
+    border: 2px solid white;
+}
+.box1 p
+{
+    color: white;
+    font-size: 22PX;
+    text-align: center;
+    line-height: 20px;
+}
+
+.nav .navigation
+{
+    height:300px ;
+    width: 100%;
+    display: flex;
+}
+.nav .event
+{
+    height: 50px;
+    width: 100%;
+}
+.event i
+{
+    background: white;
+    margin-left: 10px;
+   
+}
+.nav .copyright
+{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    color: white;
+    line-height: 20px;
+    text-align: center  ;
+}
+.navigation ul
+{
+    list-style: none;
+
+} 
+.navigation ul li
+{
+    font-size: 22px;
+    color: white;
+    line-height: 40px;
+}
+.main .blurpart
+{
+    height: 500px;
+    width: 50%;
+}
+.main .text
+{
+    height: 500px;
+    width: 30%;
+}
+.text .content
+{
+    height: 300px;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.267);
+    margin-top: 80px;
+}
+.content .p1
+{
+    color: darkcyan;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 60px;
+}
+.content .p2
+{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.473);
+}
+.secondinfo
+{
+    height: 600px;
+    display: flex;
+}
+.secondinfo .part1
+{
+    height: 600px;
+    width: 20%;
+    background:rgba(0, 0, 0, 0.658);
+}
+.secondinfo .part2
+{
+    height: 600px;
+    width: 80%;
+    display: flex;
+}
+.part2 .textcontent
+{
+    height: 400px;
+    width: 80%;
+    margin: 50px 0 0 50px;
+    display: flex;
+}
+.textcontent .aboutus
+{
+    height: 400px;
+    width: 50%;     
+}
+.textcontent .img
+{
+    height: 100px;
+    width: 100%;
+    background:lightgreen;
+}
+.textcontent .name
+
+{
+
+    height: 50px;
+    width: 100%;
+    font-size: 28px;
+    line-height: 50px;
+    font-weight: bold;
+    color:blue
+}
+
+.textcontent .conte{
+
+   height: 250px;
+   width: 100%;
+   font-size:20px;
+    color: rgba(0, 0, 0, 0.637);
+}
+.textcontent .companypro
+{
+    height: 400px;
+    width: 50%;
+}
+.imgpart
+{
+    height: 200px;
+    display: flex;
+}
+.imgpart .blank1
+{
+    height: 200px;
+    width: 20%;
+    background:rgba(0, 0, 0, 0.658);
+
+  
+}
+.imgpart .showimg
+{
+    height: 200px;
+    width: 80%;
+    display: flex;
+}
+.showimg .showimgpart1
+{
+    height: 90%;
+    width: 80%;
+    border: 2px solid rgba(0, 0, 0, 0.712);;
+    position: relative;
+}
+ .showimgpart2
+{
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.712);;
+    position: relative;
+   
+}
+.showimgpart2 .mainimg
+{
+    height: 100%;
+    width: 95%;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    border: 2px solid;
+    font-size: 22px;
+    color: blue;
+    border: 2px solid rgba(0, 0, 0, 0.712);
+    display: flex;
+    position: relative;
+}
+.mainimg .p
+{
+    height:50px;
+    width: 100%;
+    
+}
+.mainimg .img
+{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    display: flex;
+}
+.img .img1{
+    height: 100px;
+    width: 25%;
+    background:url(../img/img1.jpg);
+    background-size: 100% 100%;
+    margin-left: 5px;
+}
+.img  .img2{
+    height: 100px;
+    width: 25%;
+    background:url(../img/img2.jpg);
+    background-size: 100% 100%;
+    margin-left: 5px;
+}
+.img .img3
+{
+    height: 100px;
+    width: 25%;
+    background:url(../img/img3.jpg);
+    background-size: 100% 100%;
+    margin-left: 5px;
+
+}
+.img .img4
+{
+    height: 100px;
+    width: 25%;
+    background:url(../img/img4.jpg);
+    background-size: 100% 100%;
+    margin-left: 5px;
+}
+.clients
+{
+    height: 400px;
+    width: 100%;
+    display: flex;
+
+}
+.clients .blank1
+{
+    height: 400px;
+    width: 20%;
+    background:rgba(0, 0, 0, 0.658);
+
+}
+.clients .contentpart
+{
+    height: 400px;
+    width: 80%;
+}
+.contentpart .part1
+{
+    height: 80px;
+    width: 100%;
+    font-size: 25px;
+    color: blue;
+    line-height: 100px;
+    font-weight: bold;
+}
+
+.contentpart .part2
+{
+    height: 150px;
+    width: 100%;
+
+}
+.contentpart .part3
+{
+    height: 170px;
+    width: 100%;
+}
+.part3 .part1
+{
+    height:75px ;
+    width: 100%;
+    display: flex;
+}
+.part3 .img1,.img2,.img3,.img4
+{
+    height: 75px;
+    width: 25%;
+    background:url(../img/myob.jpg);
+    background-size: 100% 100%;
+    margin-left: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.63);
+}
+.part3 .img2
+{
+    background: url(../img/bil.png);
+    background-size: 100% 100%;
+
+}
+.part3 .img3
+{
+    background: url(../img/lifr.png);
+    background-size: 100% 100%;
+
+}
+.part3 .img4
+{
+    background: url(../img/lilly.png);
+    background-size: 100% 100%;
+
+}
+.part3 .part2
+{
+    height: 75px;
+    width: 100%;
+    display: flex;
+}
+
+.part2 .img5 ,.img6,.img7,.img8
+{
+    height: 75px;
+    width: 25%;
+    background: url(../img/cir.png);
+    border: 2px solid rgba(0, 0, 0, 0.63);
+    background-size: 100% 100%;
+    margin: 10px;
+}
+.part2 .img6
+{
+   
+    background: url(../img/trus.png);
+    background-size: 100% 100%;
+}
+.part2 .img7
+{
+    background: url(../img/old.png);
+    background-size: 100% 100%;
+}
+.part2 .img8
+{
+    background: url(../img/gra.jpg);
+    background-size: 100% 100%;
+
+}
+.talktous
+{
+    height: 350px;
+    width: 100%;
+    display: flex;
+}
+.talktous .parttalk1
+{
+    height: 350px;
+    width: 20%;
+    background:rgba(0, 0, 0, 0.658);
+}
+.talktous .parttalk2
+{
+    height: 350px;
+    width: 80%;
+    display: flex  ;
+
+}
+.parttalk2 .content
+{
+    height: 350px;
+    width: 50%;
+    position: relative;
+}
+.content .box1
+{
+    height: 80%;
+    width: 80%;
+    border: 2px solid rgba(0, 0, 0, 0.63);
+    margin:50px 0 0 50px;
+}
+.content .box2
+{
+    height: 80%;
+    width: 80%;
+    border: 2px solid rgba(0, 0, 0, 0.63);
+    position: absolute;
+    top: 60px;
+    left: 60px;
+
+}
+.box1 .boxp1
+{
+    color: blue;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+    margin-left:20px ;
+
+}
+.box1 .boxp2
+{
+    color: black;
+    margin-left:20px ;
+    font-size: 21px;
+
+}
+.parttalk2 .form
+{
+    height: 350px;
+    width: 50%;
+}
+
+.form .fromtag
+{
+    height: 300px;
+    width: 400px;
+    margin: 40px 0 0 50px;
+    font-size: 21px;
+    font-weight: bold;
+}
+.fromtag .line{
+    height: 1%;
+    width: 60%;
+    background: black;
+}
+.fromtag button
+{
+    height: 30px;
+    width: 80px;
+    line-height: 30px;
+    margin:10px 0 0 170px ;
+}
