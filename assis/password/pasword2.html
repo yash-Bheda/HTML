@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <style>
+        .main
+        {
+            height: 300px;
+            width: 400px;
+            background: lightgreen;
+            margin: auto;
+        }
+        input
+        {
+            height: 20px;
+            width: 180px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+    <div class="main">
+
+
+    Password: <input type="password" id="pas" onkeyup="yash()"><br>
+     
+<div class="ans"></div>
+
+</div>
+</form>
+
+<script>
+
+
+    function yash()
+    {
+        var num=/([0-9])/;
+        var cha=/([a-zA-Z])/
+        var spacha=/([~,!,@,#,$,^,%,&,*,+,-,/,?,<,>])/
+       var valu= $("#pas").val()
+       if(valu.length < 6)   
+       {
+           $(".ans").html("plz write a strong Password")
+           $(".ans").css({color:"red",background:"white"})
+
+      }
+
+      else if(valu.match(num) && valu.match(cha) && valu.match(spacha))
+      {
+        $(".ans").html("strong password")
+      }
+
+      else
+      {
+        $(".ans").html("medium password")
+      }
+
+    }
+
+  
+
+ 
+</script>
+    
+</body>
+</html>
