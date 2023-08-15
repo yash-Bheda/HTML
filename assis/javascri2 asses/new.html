@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/new.css">
+</head>
+<body style="text-align: center;">
+    <h1> Add user entered item into ListBox.</h1>
+    <form>
+        <div class="main">
+        <p><input type="text" id="txtItem" /></p>
+        <p><input type="button" onclick="insertItemIntoListBox()" value="Insert" /></p>
+        <select id="acc" size="10">
+            <option>Mobile</option>
+            <option>Tablet</option>
+        </select>
+    </div>
+    </form>
+
+    <script type="text/javascript">
+        function insertItemIntoListBox() {
+            var ac = document.getElementById("acc");
+            var item = document.getElementById("txtItem").value;
+            var option = document.createElement("option");
+            option.text = item;
+            ac.add(option);
+            alert(item + " has been added.");
+        }
+    </script>
+
+
+
+    
+</body>
+</html>
