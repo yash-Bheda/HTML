@@ -1,0 +1,118 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+    background:coral ;
+    color: white;
+    font-size: 21px;
+    border: none;
+}
+li
+{
+    background: none;
+}
+.header2
+{
+    background: coral;
+}
+.header2 button
+{
+    background: red;
+    color: white;
+    border: none;
+}
+.part2 .imge
+{
+    background: green;
+}
+.service
+{
+    height: 50px;
+    background: rgba(165, 143, 143, 0.63);
+}
+.services
+{
+    height: 200px;
+}
+.services i
+{
+    color: red;
+}
+.linepart21
+{
+    height: 50px;
+    background: gray;
+}
+.services2
+{
+    height: 400px;
+}
+.protfoli
+{
+    background: gray;
+}
+.protfoli .imge
+{
+    background: white;
+}
+.imge img
+{
+    height: 100%;
+    width: 100%;
+}
+.pricing
+{
+    height: 450px;
+}
+
+.card1
+{
+     border: 2px solid coral;
+     margin: 10px;
+}
+.card1 .part1{
+    height: 100px;
+    background: chocolate;
+    color: white;
+}
+.btn
+{
+    background: coral;
+    color: white;
+}
+.card2
+{
+    border: 2px solid coral;
+    margin: 10px;
+}
+.card3
+{
+    border: 2px solid coral;
+    margin: 10px;
+}
+.contact
+{
+    background: rgba(128, 128, 128, 0.753);
+}
+.contact .inp1{
+    height: 40px;
+    width: 300px;
+    margin-top: 20px;
+}
+.contact .inp2{
+    height: 40px;
+    width: 300px;
+    margin-top: 20px;
+}
+.contact .inp3{
+    height: 60px;
+    width: 350px;
+    margin-top: 20px;
+}
+.contact .btn1
+{
+    margin: 20px 0 0 220px;
+}
