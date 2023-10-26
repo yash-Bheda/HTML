@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main
+        {
+            height: 600px;
+            /* background: black; */
+            display: grid;
+            grid-template-columns: 50fr 50fr;
+        }
+        .main .bgcolor
+        {
+            background: rgba(0, 0, 0, 0.808);
+            display: grid;
+            grid-template-columns: 30fr 60fr 10fr;
+
+        }
+        .bgcolor .blank1
+        {
+            /* background: red; */
+        }
+        .bgcolor .textcon
+        {
+            display: grid;
+            grid-template-rows: 20fr 20fr 20fr 20fr 20fr;
+        }
+        .ourservice 
+        {
+            text-align: center;
+            font-size: 26px;
+            color: white;
+            font-weight: bold;
+        }
+        .ourservice .line
+        {
+            height: 40px;
+            width: 4px;
+            background: coral;
+            margin:-30px 0 0 400px;
+            
+        }
+        .textcon .webdesign
+        {
+            font-size: 18px;
+            color: coral;
+            text-align: right;
+        }
+        .textcon .printdesign
+        {
+            font-size: 18px;
+            color: coral;
+            text-align: right;
+
+        }
+        .textcon .photogra
+        {
+            font-size: 18px;
+            color: coral;
+            text-align: right;
+
+        }
+        .photogra .p1
+        {
+            color: white;
+        }
+        .printdesign .p1
+        {
+            color: white;
+
+        }
+        .webdesign .p1
+        {
+            color: white;
+        }
+        .bgcolor .blank2
+        {
+            /* background: purple; */
+            display: grid;
+            grid-template-rows: 40fr 20fr 20fr 20fr;
+        }
+        .blank2 .img1,.img2,.img3
+        {
+            height: 50%;
+            width: 80%;
+            background: blue;
+            margin-left:20px;
+            border-radius: 50%;
+            z-index: 1;
+            margin-left: 40px;
+            border: 2px solid gray;
+        }
+       
+        .main .bgimg
+        {
+            background:url(img/Screenshot_20220118-160009_Chrome.jpg);
+            background-size: 100% 100%;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="bgcolor">
+            <div class="blank1"></div>
+            <div class="textcon">
+                <div class="blank1"></div>
+                <div class="ourservice">
+                    OUR SERVICES
+                    <div class="line"></div>
+                </div>
+                <div class="webdesign">
+                        Web Design
+                        <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit impedit quisquam quia, </p>
+                </div>
+                <div class="printdesign">
+                    Print Design
+                    <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit impedit quisquam quia, </p>
+                </div>
+                <div class="photogra">
+                    Photography
+                    <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit impedit quisquam quia, </p>    
+                </div>
+                <div class="blank2"></div>
+              
+            </div>
+            <div class="blank2">
+                <div class="blank"></div>
+                <div class="img1"></div>
+                <div class="img2"></div>
+                <div class="img3"></div>
+            </div>
+
+        </div>
+        <div class="bgimg"></div>
+    </div>
+    
+</body>
+</html>

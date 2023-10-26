@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main
+        {
+            height: 600px;
+            background:url(./img/back.jpg);
+            background-size: 100% 100%;
+            clip-path: polygon(0% 0%,100% 0%,100% 80%,50% 100%,50% 100%,0% 80%);
+            display: grid;
+            grid-template-rows: 10fr 10fr 50fr 30fr;
+        }
+        .main .mainlogo
+        {
+            height: 40px;
+            width: 120px;
+            font-size: 32px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 40px;
+            color: white;
+            margin: 10px 0 0 150px;
+            display: grid;
+            grid-template-columns: 40fr 60fr;
+            border: 2px solid white;
+        }
+        .mainlogo .l
+        {
+            background: white;
+            color: gray;
+        }
+        .mainlogo .lgo{
+            background:rebeccapurple;
+        }
+        .main .nav
+        {
+            /* background: red; */
+            display: grid;
+            grid-template-columns: 30fr 60fr 10fr;
+        }
+      
+      
+        .nav .header
+        {
+            /* background: rgb(226, 208, 208); */
+        }
+        .header ul
+        {
+
+        }
+        .header ul li
+        {
+            display: inline;
+            margin: 5px;
+            letter-spacing: 1px;
+            color: white;
+            font-size: 18px;
+        }
+        ul .la
+        {
+            color: coral;
+        }
+        .nav .blanknav
+        {
+            /* background: coral; */
+        }
+        .main .blank
+        {
+            background: white;
+        }
+        .main .content
+        {
+            /* background: yellow; */
+        }
+        .content .content1
+        {
+            height: 50%;
+            width: 60%;
+            /* background:blue; */
+            margin-left: 20%;
+            display: grid;
+            grid-template-rows: 10fr 20fr 10fr 20fr 20fr 40fr;
+        }
+        .content1 .pera1
+        {
+            font-size: 22px;
+            color: white;
+            text-align: center;
+        }
+        .content1 .pera2
+        {
+            font-size: 43PX;
+            color:white;
+            text-align: center;
+            word-spacing: 20px;
+            letter-spacing: 2px;
+        }
+        .content1 .peracon
+        {
+            height: 80%;
+            width: 50%;
+            background:yellow;
+            margin-left: 25%;
+            text-align: center;
+        }
+        .content1 .button
+        {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .button button
+        {
+            height: 40PX;
+            width: 23%;
+            margin-left: 20PX;
+            color: white;
+
+        }
+     .btn1
+        {
+            background: coral;
+            border: none;
+            font-weight: bold;
+
+        }
+        .btn2
+        {
+            background: transparent;
+            border: 2px solid white;
+            font-weight: bold;
+        }
+        .main .blank2
+        {
+            background: rebeccapurple;
+        }
+        .main2
+        {
+            height: 200px;  
+            /* background: red; */
+            margin-top: 4%;
+            display: grid;
+            grid-template-columns: 10fr 20fr 20fr 20fr 20fr 10fr;
+        }
+       
+        .main2 .design
+        {
+            /* background: green; */
+            display: grid;
+            grid-template-rows: 40fr 10fr 5fr 45fr;
+        }
+         .desimg
+        {
+            background: yellow;
+        }
+          .destext
+        {
+            /* background: lightcoral; */
+            text-align: center;
+            color: coral;
+        }
+          .desline
+        {
+            /* background: lightpink; */
+        }
+        .lines
+        {
+            height: 4px;
+            width: 60px;
+            background: gray;
+            margin-left: 100px;
+        }
+        .descon
+        {
+            /* background: lightgray; */
+            color: rgba(0, 0, 0, 0.726);
+        }
+     
+        .main2 .code
+        {
+            /* background: yellow; */
+            display: grid;
+            grid-template-rows: 40fr 10fr 5fr 45fr;
+        }
+        .main2 .ideas
+        {
+            /* background: coral; */
+            display: grid;
+            grid-template-rows: 40fr 10fr 5fr 45fr;
+        }
+        .main2 .support
+        {
+            /* background: pink; */
+            display: grid;
+            grid-template-rows: 40fr 10fr 5fr 45fr;
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <div class="logo">
+                <div class="mainlogo">
+                    <div class="l">L</div>
+                    <div class="ogo">ogo</div>
+
+                </div>
+            </div>
+            <div class="header">
+                <ul>
+                    <li class="la">HOME</li>
+                    <li>ABOUT US</li>
+                    <li>PROTFOLIO</li>
+                    <li>PRICING</li>
+                    <li>TEAM</li>
+                    <li>BLOG</li>
+                    <li>CONTACT</li>
+                </ul>
+            </div>
+            <div class="blanknav"></div>
+        </div>
+        <div class="blank"></div>
+        <div class="content">
+            <div class="content1">
+                <div class="pera1">
+                    <p>Our Client Are Our First Priority</p>
+                </div>
+                <div class="pera2"><P>WELCOME TO SKY</P></div>
+                <div class="line"></div>
+                <div class="pera3">
+                   <div class="peracon">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, enim quis, et minima sapiente quos culpa quia nesciunt debitis nisi labore assumenda ipsam nulla expedita autem asperiores fugiat saepe ea?</p>
+                   </div>
+                </div>
+                <div class="button">
+                    <button class="btn1">GET STARTED NOW</button>
+                    <button class="btn2">LEARN MORE</button>
+                </div>
+                <div class="blankcon"></div>
+            </div>
+        </div>
+        <div class="blank2"></div>
+
+
+    </div>
+    
+    <div class="main2">
+        <div class="blank1"></div>
+        <div class="design">
+            <div class="desimg"></div>
+            <div class="destext">SLEEK DESIGN</div>
+            <div class="desline">
+                <div class="lines"></div>
+            </div>
+            <div class="descon">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam mollitia tempora vel beatae sequi qui vero quam soluta asperiores voluptatibus sit eius hic ducimus voluptas.
+            </div>
+            
+
+            </div>
+
+
+
+        
+        <div class="code">
+            <div class="desimg"></div>
+            <div class="destext">SLEEK DESIGN</div>
+            <div class="desline">
+                <div class="lines"></div>
+            </div>
+            <div class="descon">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam mollitia tempora vel beatae sequi qui vero quam soluta asperiores voluptatibus sit eius hic ducimus voluptas.
+            </div>
+          
+            
+            
+            
+        </div>
+        <div class="ideas">
+            <div class="desimg"></div>
+            <div class="destext">SLEEK DESIGN</div>
+            <div class="desline">
+                <div class="lines"></div>
+            </div>
+            <div class="descon">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam mollitia tempora vel beatae sequi qui vero quam soluta asperiores voluptatibus sit eius hic ducimus voluptas.
+            </div>
+          
+                   </div>
+        <div class="support">
+            <div class="desimg"></div>
+            <div class="destext">SLEEK DESIGN</div>
+            <div class="desline">
+                <div class="lines"></div>
+            </div>
+            <div class="descon">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam mollitia tempora vel beatae sequi qui vero quam soluta asperiores voluptatibus sit eius hic ducimus voluptas.
+            </div>
+          
+                    </div>
+        <div class="blank2"></div>
+
+    </div>
+
+    
+</body>
+</html>
