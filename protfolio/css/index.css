@@ -1,0 +1,133 @@
+*
+{
+    box-sizing: border-box;
+}
+.mainnav
+{
+    background:blue;
+}
+.mainnav a
+{
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.mainnav .resu
+{
+    font-size: 31px;
+    color: white;
+}
+.mainnav ul li
+{
+    display: inline;
+}
+.mainnav i
+{
+    margin: 7px 0 0 20px;
+    background:white;
+}
+.scro p
+{
+    font-size: 26px;
+    font-style: italic;
+    text-align: center
+}
+.scro u
+{
+    color: red;
+}
+.main1{
+    position: relative;
+}
+.line
+{
+    height: 5px;
+    width: 250px;
+    background:blue;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    transition: 1s;
+
+}
+.main1:hover .line
+{
+    opacity: 1;
+    position: absolute;
+    left: 42%;
+}
+.education
+{
+    margin-top: 20px;
+}
+.education .p1
+{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+mark
+{
+    background-color: yellow;
+}
+.hobi
+{
+    margin: 90px;
+}
+.about h1
+{
+    font-weight: bold;
+}
+.main4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main4 img
+{
+    border-radius: 50%;
+    outline: 5px solid black;
+    border:2px solid blue ;
+}
+.main4 p
+{
+    font-family:cursive;
+}
+.skils
+{
+    background: rgba(255, 255, 0, 0.301);
+}
+.skils ul
+{
+    list-style-type: none;
+    color: blue;
+    font-weight: bolder;
+}
+.skils:hover h2
+{
+    color: red;
+    background: linear-gradient(rgba(255, 0, 0, 0.507),rgba(0, 0, 255, 0.541),rgba(0, 128, 0, 0.438));
+}
+.contact
+{
+    height: 600px;
+}
+.contact .map
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact .part2
+{
+    padding: 50px;
+}
+.part2 input
+{
+    margin: 20px;
+}
+
+
+
