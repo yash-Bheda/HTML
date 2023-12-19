@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div
+        {
+            height: 500px;
+            width: 600px;
+            margin: 50px 0 0 330px;
+            /* background: red; */
+        }
+        img
+        {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="img/images1.jpg" alt="">
+        <img src="img/images.jpg" alt="">
+        <img src="img/Untitled.jpg" alt="">
+        <img src="img/Untitled1.jpg" alt="">
+    </div>
+
+    <script>
+        index=0
+
+        ima=document.getElementsByTagName("img")
+
+        function yash()
+        {
+
+        for(i=0;i<ima.length;i++)
+        {
+            ima[i].style.display="none"
+        }
+
+           ima[index].style.display="block";
+           index ++
+
+           if(index>=ima.length)
+           {
+                 index=0;
+           }
+     
+     
+          setTimeout("yash()",1000)
+
+
+
+    }
+
+    yash()
+
+
+    </script>
+    
+</body>
+</html>
