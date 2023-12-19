@@ -1,0 +1,61 @@
+[
+    {
+        "img":"./1fru.jpg",
+         "info1":"apple",
+         "info2":"this is apple"
+    },
+    
+    {
+        "img":"./1fru.jpg",
+         "info1":"apple",
+         "info2":"this is apple"
+    },
+    
+    {
+        "img":"./1fru.jpg",
+         "info1":"apple",
+         "info2":"this is apple"
+    },
+    
+    {
+        "img":"./1fru.jpg",
+         "info1":"apple",
+         "info2":"this is apple"
+    },
+    {
+        "img":"./1fru.jpg",
+         "info1":"apple",
+         "info2":"this is apple"
+    },
+    {
+        "img":"./1fru.jpg",
+         "info1":"apple",
+         "info2":"this is apple"
+    },
+    {
+        "img":"./1fru.jpg",
+         "info1":"apple",
+         "info2":"this is apple"
+    },
+    {
+        "img":"./2fru.jpg",
+         "info1":"apple",
+         "info2":"this is apple"
+    },
+    {
+        "img":"./3frt.jpg",
+         "info1":"apple",
+         "info2":"this is apple"
+    }
+    ,
+    {
+        "img":"./4fru.jpg",
+         "info1":"apple",
+         "info2":"this is apple"
+    },
+    {
+        "img":"./5fru.jpg",
+         "info1":"apple",
+         "info2":"this is apple"
+    }
+]

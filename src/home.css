@@ -1,0 +1,23 @@
+.log
+{
+    height: 80px;
+    width: 80px;
+}
+.serachinp
+{
+    width: 480px;
+}
+.back 
+{
+    height: 400px;
+    background: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cart img
+{
+    height: 80px;
+    width: 50px;
+
+}
